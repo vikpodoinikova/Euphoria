@@ -1,0 +1,603 @@
+/* lato-100 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/lato-v22-latin-100.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/lato-v22-latin-100.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/lato-v22-latin-100.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/lato-v22-latin-100.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/lato-v22-latin-100.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/lato-v22-latin-100.svg#Lato') format('svg');
+  /* Legacy iOS */
+}
+
+/* lato-300 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+    url('../fonts/lato-v22-latin-300.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v22-latin-300.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/lato-v22-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v22-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/lato-v22-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v22-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  color: rgb(236, 236, 236);
+}
+
+.wrapper {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+/*header styles*/
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.headerwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.headerlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headeritem {
+  margin-right: calc(45px + 79 * ((100vw - 320px) / (1920 - 320)));
+
+}
+
+.headerlink {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  font-weight: 275;
+  font-size: calc(20px + 12 * ((100vw - 320px) / (1920 - 320)));
+  line-height: 120px;
+  letter-spacing: -0.03em;
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+}
+
+.headerlogo-link {
+  text-decoration: none;
+}
+
+.headerlogo-text {
+  position: relative;
+  top: -20px;
+  width: 284px;
+  height: 90px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 80px;
+  line-height: 240px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+
+  background: linear-gradient(273.01deg, #7793CE 19.15%, #CD84F1 116.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.headerlink:hover,
+.headerlink:focus,
+.headerlink:active {
+  opacity: .75;
+}
+
+/*header styles*/
+
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*ep1 styles*/
+.episodes1 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/bgepisodes1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ep1-content {
+  position: relative;
+  width: 1281px;
+  height: 810px;
+  left: 0;
+  top: 140px;
+}
+
+.ep1head-text {
+  position: relative;
+  width: 350px;
+  height: 81px;
+  left: 0;
+  top: 0;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 96px;
+  line-height: 115px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  
+}
+
+.ep1head-down {
+  position: relative;
+  width: 66.23px;
+  height: 33.23px;
+  left: 370px;
+  top: -45px;
+}
+/*ep1 styles*/
+
+/*ep2 styles*/
+.episodes2 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/bgepisodes2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.ep2head-text {
+  position: relative;
+  width: 350px;
+  height: 81px;
+  left: 0;
+  top: 140px;
+
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 96px;
+  line-height: 115px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+}
+
+.ep2head-up {
+  position: relative;
+  width: 66.23px;
+  height: 33.23px;
+  left: 370px;
+  top: 85px;
+
+}
+
+/*ep2 styles*/
+
+/*allep styles*/
+.allepisodes1 {
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ser {
+  position: relative;
+  width: 270px;
+  height: 275px;
+  float: left;
+  margin: 5px 11px;
+  
+}
+
+.play {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  right: -212px;
+  top: -50px;
+}
+
+.play:hover,
+.play:focus,
+.play:active {
+  opacity: .75;
+}
+
+.seria {
+  width: 257px;
+  height: 274px;
+  margin: 2px;
+}
+
+.seriestext {
+  position: relative;
+  width: 240px;
+  height: 96px;
+  right: -10px;
+  top: -165px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+}
+
+.allepisodes2 {
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  top: 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*allep styles*/
+
+.trailer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/trailerbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.videocontainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video{
+position: relative;
+width: 100%;
+}
+
+@media screen and (max-width: 1540px) {
+  .wrapper {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .ep1head-text {
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+  }
+
+  .ep2head-text {
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+  }
+
+  .ep1head-down {
+    position: relative;
+    width: 55px;
+    height: 27px;
+    left: 240px;
+    top: -50px;
+
+  }
+
+  .ep2head-up {
+    position: relative;
+    width: 55px;
+    height: 27px;
+    left: 240px;
+    top: -50px;
+  }
+
+  .seria {
+    width: 214px;
+    height: 228px;
+
+  }
+
+  .seriestext {
+    position: relative;
+    font-size: 14px;
+    width: 190px;
+    top: -140px;
+  }
+
+  .ser {
+    position: relative;
+    width: 225px;
+    height: 229px;
+    float: left;
+    margin: 5px 11px;
+  }
+
+  .allepisodes1 {
+
+    width: 1000px;
+    height: 500px;
+
+  }
+
+  .allepisodes2 {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    top: 0px;
+
+  }
+
+  .ep1-content {
+    position: relative;
+    width: 1140px;
+    height: 600px;
+    top: 100px;
+
+  }
+
+  .ep2-content {
+    position: relative;
+    width: 1140px;
+    height: 600px;
+    top: 90px;
+  }
+
+  .play {
+    position: relative;
+
+    right: -179px;
+    top: -44px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    max-width: 720px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .headerlogo-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .allepisodes1 {
+    position: relative;
+    width: 758px;
+    height: 500px;
+    top: 3px;
+    left: -13px;
+  }
+
+  .ep1-content {
+    position: relative;
+    width: 728px;
+    height: 827px;
+    top: 154px;
+  }
+  .seriestext {
+    position: relative;
+    font-size: 14px;
+    width: 190px;
+    top: -110px;
+}
+  
+
+  .play {
+    display: none;
+  }
+
+ 
+
+  .allepisodes2 {
+    position: relative;
+    width: 758px;
+    height: 500px;
+    top: 3px;
+    left: -13px;
+  }
+
+  .ep2-content {
+    position: relative;
+    width: 728px;
+    height: 827px;
+    top: 154px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    position: absolute;
+    top: -26px;
+    left: 0;
+    width: 100%;
+}
+.allepisodes1 {
+  position: relative;
+  width: 316px;
+  height: 527px;
+  top: 3px;
+  left: 7px;
+}
+
+.ep1-content {
+  position: relative;
+  width: 310px;
+  height: 559px;
+  top: 73px;
+}
+
+  .ep1head-text {
+    position: relative;
+    top: -17px;
+    font-size: 30px;
+    width: 350px;
+    height: 51px;
+  }
+
+  .ep1head-down {
+    position: relative;
+    width: 27px;
+    height: 23px;
+    left: 114px;
+    top: -55px;
+  }
+
+  .ser {
+    position: relative;
+    width: 122px;
+    height: 127px;
+    float: left;
+    margin: -33px 16px;
+  }
+
+  .seria {
+    width: 247px;
+    height: 130px;
+    margin: 2px;
+  }
+
+  .play {
+    display: none;
+  }
+
+  .seriestext {
+    position: relative;
+    font-size: 10px;
+    width: 108px;
+    top: -61px;
+    height: 61px;
+    right: -5px;
+    line-height: 10px;
+  }
+
+  .allepisodes2 {
+    position: relative;
+    width: 316px;
+    height: 527px;
+    top: 3px;
+    left: 7px;
+}
+
+.ep2-content {
+  position: relative;
+  width: 310px;
+  height: 559px;
+  top: 55px;
+}
+
+  .ep2head-text {
+    position: relative;
+    top: -17px;
+    font-size: 30px;
+    width: 350px;
+    height: 51px;
+  }
+
+  .ep2head-up {
+    position: relative;
+    width: 27px;
+    height: 23px;
+    left: 114px;
+    top: -55px;
+  }
+
+}
